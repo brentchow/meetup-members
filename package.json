@@ -1,0 +1,25 @@
+{
+  "name": "meetup-members",
+  "version": "1.0.0",
+  "description": "Scrape Meetup group member lists.",
+  "main": "index.js",
+  "author": "Brent Chow",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "start-local": "node -r dotenv/config ."
+  },
+  "dependencies": {
+    "json2csv": "^4.5.0",
+    "meetup-api": "^1.4.38"
+  },
+  "devDependencies": {
+    "dotenv": "^7.0.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-promise": "^3.8.0"
+  }
+}
